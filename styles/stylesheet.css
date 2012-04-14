@@ -3,6 +3,7 @@
   width:800px;
   height:1025px;
   border:5px solid #000000;
+  background-color:#000000;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -14,6 +15,21 @@
   border-bottom:2px solid #000000;
   text-align: center;
 }
+
+#name
+{
+  height:180px;
+  width:750px;
+  margin: 0 auto;
+  background-color:#FFFF00;
+  text-align: center;
+}
+
+#name h1
+{
+  font-size: 450%;
+}
+
 
 #logo
 {
@@ -43,6 +59,10 @@
 #content
 {
   text-align: center;
+  background-color:#FFFF00;
+  width:750px;
+  height:400px;
+  margin: 0 auto;
 }
 
 #show_photos
