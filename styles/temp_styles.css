@@ -1,3 +1,19 @@
+a:link
+{
+  color:#191970;
+  text-decoration:none;
+}
+
+a:visited
+{
+  color:#660198;
+}
+
+a:hover
+{
+  text-decoration:underline;
+}
+
 body
 {
   background-color:#888888;
@@ -19,7 +35,7 @@ body
   height:150px;
   width:725px;
   margin: 0 auto;
-  background-color:#FFFF00;
+  background-color:#FFD700;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -34,7 +50,7 @@ body
 {
   text-align: center;
   border:5px solid #000000;
-  background-color:#FFFF00;
+  background-color:#FFD700;
   width:725px;
   height:420px;
   margin: 0 auto;
