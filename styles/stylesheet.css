@@ -6,7 +6,7 @@ body
 #wrapper
 {
   width:70%;
-  background-color:#FFFFFF;
+  background-color:#1826FA;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -16,6 +16,15 @@ body
 {
   height:200px;
   border: 4px groove #282828;
+  background-color:#FFFFFF;
+}
+
+img.logo_pic
+{
+  display:block;
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #nav
@@ -29,6 +38,7 @@ body
   height:800px;
   margin: 0 auto;
   border: 4px groove #282828;
+  background-color:#FFFFFF;
 }
 
 #poster
@@ -39,3 +49,5 @@ body
   margin: 0 auto;
   margin-top: 60px;
 }
+
+
