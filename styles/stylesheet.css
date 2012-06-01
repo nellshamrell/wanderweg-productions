@@ -17,6 +17,8 @@ body
 {
   height:200px;
   background-color:#FFFFFF;
+  border: 10px solid #F4C551;
+
 }
 
 img.logo_pic
