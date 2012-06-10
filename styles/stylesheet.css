@@ -1,71 +1,83 @@
 body
 {
-  background:url(../images/bricks_background.jpg) no-repeat;
-  background-repeat:no-repeat;
-  font-family:Arial,Helvetica,sans-serif;
+    background:url(../images/bricks_background.jpg) no-repeat;
+    background-repeat:no-repeat;
+    font-family:Arial,Helvetica,sans-serif;
 }
 
 #wrapper
 {
-  width:55%;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 40px;
+    width:650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 #logo
 {
-  height:200px;
-  background-color:#FFFFFF;
-  border: 10px solid #F4C551;
+    height:200px;
+    background-color:#FFFFFF;
+    border: 10px solid #F4C551;
 }
 
 img.logo_pic
 {
-  display:block;
-  height:200px;
-  margin-left: auto;
-  margin-right: auto;
+    display:block;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #nav
 {
-  margin-top:40px;
-  height:60px;
-  background-color:#FFFFFF;
-  text-align: center;
-  border: 10px solid #F4C551;
+    margin-top:40px;
+    height:60px;
+    background-color:#FFFFFF;
+    text-align: center;
+    border: 3px solid black;
 }
 
 #nav ul li
 {
-  font-size: 200%;
-  list-style: none;
-  display:inline;
-  margin-right: 40px;
-  margin-left: 40px;
+    font-size: 200%;
+    list-style: none;
+    display:inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#nav a
+{
+  color:black;
+  text-decoration:none;
+}
+
+#nav a:hover
+{
+  text-decoration:underline;
 }
 
 #content
 {
-  height:600px;
-  background-color:#FFFFFF;
-  margin-top:40px;
-  padding-top:50px;
-  border: 10px solid #F4C551;
+    text-align: center;
+    height:600px;
+    background-color:#FFFFFF;
+    margin-top:40px;
+    padding-top:50px;
+    border: 3px solid black;
 }
 
 #poster
 {
-  width:80%;
-  height:600px;
-  margin: 0 auto;
-  text-align: center;
+    width:80%;
+    height:600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 img.poster_pic
 {
-  height:400px;
+    height:400px;
 }
 
 
