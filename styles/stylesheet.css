@@ -77,8 +77,8 @@ img.logo_pic
 .text_left
 {
     text-align: left;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 60px;
+    margin-left: 70px;
 }
 
 #switcher-menu
@@ -106,7 +106,6 @@ img.logo_pic
     height:600px;
     margin: 0 auto;
     text-align: center;
-    border-bottom: 1px solid black;
 }
 
 img.poster_pic

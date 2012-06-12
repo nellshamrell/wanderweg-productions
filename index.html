@@ -9,15 +9,16 @@
         <script src="scripts/jquery.corner.js"></script>
         <script src="scripts/jquery.nivo.slider.pack.js" type="text/javascript"></script>
         <script>
-          $("#logo").corner();
-          $('#nav').corner();
-          $("#content").corner();
+            $("#logo").corner();
+            $('#nav').corner();
+            $("#content").corner();
+            $("#slider").corner();
         </script>
         <script type="text/javascript">
-        $(window).load(function() {
-          $('#slider').nivoSlider();
-            effect: 'fade'
-          });
+            $(window).load(function() {
+              $('#slider').nivoSlider();
+              effect: 'fade'
+             });
         </script>
     </head>
     <body>
@@ -37,14 +38,17 @@
             </div>
 
             <div id="content">
+            <div class="text_left">
+            Wanderweg Productions is a new theatre company based in Seattle, WA, dedicated to creating provocative, inspiring, and heartfelt theatre that explores the human condition.
+            </div>
+
                 <div id="poster">
-                    <h1>The Celtic Cross</h1>
-                      <div id="slider" class="nivoSlider">
+                    <div id="slider" class="nivoSlider">
                         <img src="images/celtic_cross/shoot_1.jpg">
                         <img src="images/celtic_cross/shoot_2.jpg">
                         <img src="images/celtic_cross/shoot_3.jpg">
                         <img src="images/celtic_cross/shoot_4.jpg">
-                      </div>
+                    </div>
                 </div>
 
             </div>
