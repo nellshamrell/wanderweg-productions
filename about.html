@@ -1,15 +1,23 @@
 <!doctype html>
+
 <html>
     <meta charset="utf-8">
     <head>
         <title>Wanderweg Productions</title>
         <link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
+        <link rel="stylesheet" href="styles/jquery.content-panel-switcher.css">
         <script src="scripts/jquery.js"></script>
         <script src="scripts/jquery.corner.js"></script>
+        <script src="scripts/jquery.content-panel-switcher.js">
         <script>
           $("#logo").corner();
           $('#nav').corner();
           $("#content").corner();
+        </script>
+        <script type="text/javascript">
+          $(document).ready(function() {
+            jcps.fader(300, '#switcher-panel');
+          });
         </script>
 
     </head>
@@ -33,15 +41,19 @@
             <div class="text">
             Wanderweg Productions is a new theatre company based in Seattle, WA, dedicated to creating provocative, inspiring, and heartfelt theatre that explores the human condition.
             </div>
-            <div class="horiz_list">
-              <ul>
-                <li>Our Mission</li>
-                <li>The Celtic Cross</li>
-                <li>Matthew Jackson</li>
-                <li>Bryan Sullivan</li>
-              </ul>
+            <a id="mission" class="switcher">Mission</a>
+            <a id="celtic_cross" class="switcher">Celtic Cross</a>
+            <a id="matthew_jackson" class="switcher">Matthew Jackson</a>
+            <a id="bryan_sullivan" class="switcher">Bryan Sullivan</a>
+            <div id='switcher-panel'></div>
+
             </div>
-        </div>
+            <div id="mission-content" class="switcher-content show">Content 1</div>
+            <div id="celtic_cross-content" class="switcher-content">Content 2</div>
+            <div id="matthew_jackson-content" class="switcher-content">Content 3</div>
+            <div id="bryan_sullivan-content" class="switcher-content">Content 4</div>
+
+
         </div>
     </div>
 
