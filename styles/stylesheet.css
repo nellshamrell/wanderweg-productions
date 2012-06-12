@@ -48,13 +48,13 @@ img.logo_pic
 
 #nav a
 {
-  color:black;
-  text-decoration:none;
+    color:black;
+    text-decoration:none;
 }
 
 #nav a:hover
 {
-  text-decoration:underline;
+    text-decoration:underline;
 }
 
 #content
@@ -69,35 +69,35 @@ img.logo_pic
 
 .text_center
 {
-  text-align: center;
-  margin-right: 20px;
-  margin-left: 20px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .text_left
 {
-  text-align: left;
-  margin-right: 20px;
-  margin-left: 20px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #switcher-menu
 {
-  padding-top: 20px;
-  font-size: 130%;
+    padding-top: 20px;
+    font-size: 130%;
 
 }
 
 #switcher-menu a
 {
-  margin-right: 10px;
-  margin-left: 10px;
-  border-bottom: 1px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
 }
 
 #switcher-panel
 {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 #poster
@@ -106,6 +106,7 @@ img.logo_pic
     height:600px;
     margin: 0 auto;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 img.poster_pic
