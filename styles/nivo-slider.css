@@ -60,11 +60,11 @@
 /* Caption styles */
 .nivo-caption {
 	position:absolute;
-	left:0px;
-	bottom:0px;
+	right:0px;
+	top:0px;
 	background:#000;
 	color:#fff;
-	width:100%;
+	width:30%;
 	z-index:8;
 	padding: 5px 10px;
 	opacity: 0.8;
