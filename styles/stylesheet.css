@@ -84,13 +84,13 @@ img.logo_pic
 #switcher-menu
 {
     padding-top: 20px;
-    font-size: 130%;
+    font-size: 120%;
 
 }
 
 #switcher-menu a
 {
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 10px;
     border-bottom: 1px solid black;
 }
