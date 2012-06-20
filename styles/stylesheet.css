@@ -19,9 +19,14 @@ a.bold_no_underline:visited
     color:#660099;
 }
 
+p.photo_credit
+{
+  font-size: 75%
+}
+
 #wrapper
 {
-    width:650px;
+    width: 650px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 40px;
