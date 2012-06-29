@@ -79,11 +79,40 @@ img.logo_pic
 #content
 {
     text-align: center;
-    height:600px;
+    height: 700px;
     background-color:#FFFFFF;
     margin-top:40px;
     padding-top:20px;
     border: 3px solid black;
+}
+
+img.show_pic_horiz
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 75%;
+  border: 5px solid #000000;
+}
+
+img.show_pic_vert
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60%;
+  border: 5px solid #000000;
+}
+
+.reviewer
+{
+  font-style: italic;
+}
+
+.section_divider
+{
+  width: 60%;
+  border-bottom: 1px dashed #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text_center
@@ -116,7 +145,7 @@ img.logo_pic
 
 #switcher-panel
 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #poster
