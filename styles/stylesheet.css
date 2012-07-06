@@ -102,6 +102,12 @@ img.show_pic_vert
   border: 5px solid #000000;
 }
 
+img.headshot
+{
+    height: 45%;
+    border: 5px solid #000000;
+}
+
 .reviewer
 {
   font-style: italic;
