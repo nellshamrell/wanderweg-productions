@@ -108,6 +108,13 @@ img.headshot
     border: 5px solid #000000;
 }
 
+.video_container
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
 .reviewer
 {
   font-style: italic;
