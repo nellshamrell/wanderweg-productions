@@ -28,7 +28,7 @@ Author URI: http://dev7studios.com
 
 .theme-default .nivo-controlNav {
 	text-align: center;
-	padding: 20px 0;
+	padding-top: 20px;
 }
 .theme-default .nivo-controlNav a {
 	display:inline-block;
